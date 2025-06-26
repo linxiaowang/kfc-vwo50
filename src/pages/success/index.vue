@@ -6,7 +6,7 @@ defineOptions({
 
 <template>
   <div flex flex-col items-center>
-    <img src="/kfc6.jpeg" alt="" h-128 w-128>
+    <img src="/kfc-vwo50/kfc6.jpeg" alt="" h-128 w-128>
     有你真好～
   </div>
 </template>

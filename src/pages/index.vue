@@ -4,11 +4,11 @@ defineOptions({
 })
 
 const pictures = ref<Array<string>>([
-  '/kfc1.jpg',
-  '/kfc2.jpg',
-  '/kfc3.jpg',
-  '/kfc4.jpg',
-  '/kfc5.jpg',
+  '/kfc-vwo50/kfc1.jpg',
+  '/kfc-vwo50/kfc2.jpg',
+  '/kfc-vwo50/kfc3.jpg',
+  '/kfc-vwo50/kfc4.jpg',
+  '/kfc-vwo50/kfc5.jpg',
 ])
 
 const pictureIndex = ref<number>(1)
