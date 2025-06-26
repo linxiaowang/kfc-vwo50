@@ -26,7 +26,7 @@ function handleOkClick() {
 }
 
 function handleNoClick() {
-  pictureIndex.value = pictureIndex.value > 4 ? 1 : pictureIndex.value + 1
+  pictureIndex.value = pictureIndex.value > 3 ? 1 : pictureIndex.value + 1
   noButtonSize.value = Math.max(60, noButtonSize.value - 20)
   okButtonSize.value = Math.min(200, okButtonSize.value + 20)
 }
