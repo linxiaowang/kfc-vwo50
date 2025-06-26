@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "up": "taze major -I",
-    "postinstall": "npx simple-git-hooks"
+    "postinstall": "npx simple-git-hooks",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vueuse/core": "catalog:frontend",
