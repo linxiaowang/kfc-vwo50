@@ -12,6 +12,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   base: '/kfc-vwo50/',
+  publicDir: import.meta.env.MODE === 'production' ? './' : '/',
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,
